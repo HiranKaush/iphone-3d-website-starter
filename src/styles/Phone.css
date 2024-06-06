@@ -1,0 +1,42 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .model-container {
+    width: 100%;
+    max-width: 1000px;
+    flex-grow: 1; 
+  }
+  
+  .description {
+    max-width: 960px;
+    margin-top: 20px;
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+  }
+
+  .button{
+    background-color: rgb(16, 129, 235);
+    margin-left: 1300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .store-container{
+    width: 100%;
+    max-width: 1000px;
+    flex-grow: 1;
+  }
+  
